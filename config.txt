@@ -1,0 +1,10 @@
+
+# ------------------------------------------------------------------ #
+#
+# Values are retrieved using ' = ' and lineNr so position is locked
+#
+# ------------ DO NOT ADD/REMOVE LINES BELOW THIS POINT ------------ #
+
+Excel spreadsheet = spreadsheet.xlsx
+csv output file = csv_file.txt
+final output = emails.csv
