@@ -6,7 +6,7 @@ This PDF processor was made to automate a menial task where a name had to be ret
 2. Scans all PDF documents in subfolder working_directory/files/ for a pre-defined string using [pdfgrep](https://pdfgrep.org/) and stores them in a temporary storage "unformatted\_names.txt"
 3. Formats all found occurances stored in "unformatted\_names.txt" to 'lastname,firstname' and saves the result in "formatted_names.txt"
 4. Scan & retrieve rows from "any\_spreadsheet.csv" using values from "formatted\_names". Results are stored in "emails\_unformatted.txt"
-5. Takes each row from "emails\_unformatted.txt", strips off unwanted information and stores the remainder (an email address in this case) to "emails\_unformatted.txt"
+5. Takes each row from "emails\_unformatted.txt", strips off unwanted information and stores the remainder (an email address in this case) to "emails\_formatted.txt"
 6. Cleans up all temporary files
 
 ## What it's not
